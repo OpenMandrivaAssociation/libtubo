@@ -13,7 +13,6 @@ Source:		http://downloads.sourceforge.net/xffm/%{name}-%{version}.tar.bz2
 URL:		http://xffm.sf.net
 License:	GPL
 Group:		Utilities
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	xfce-dev-tools
 BuildRequires:	autoconf2.5
 BuildRequires:	automake1.9
