@@ -2,7 +2,7 @@
 %define lib_major 1
 %define lib_name	%mklibname tubo %{lib_major}
 %define version 4.5.0
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name: 	 	%{name}
 Summary: 	Interprocess communication used by xffm
