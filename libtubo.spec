@@ -12,7 +12,7 @@ Release: 	%{release}
 Source:		http://downloads.sourceforge.net/xffm/%{name}-%{version}.tar.bz2
 URL:		http://xffm.sf.net
 License:	GPL
-Group:		Utilities
+Group:		System/Libraries
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	xfce-dev-tools
 BuildRequires:	autoconf2.5
