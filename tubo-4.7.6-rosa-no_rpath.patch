@@ -1,0 +1,11 @@
+Index: tubo-4.7.6/tubo.pc.in
+===================================================================
+--- tubo-4.7.6.orig/tubo.pc.in
++++ tubo-4.7.6/tubo.pc.in
+@@ -7,5 +7,5 @@ Name: libtubo
+ Description: Libtubo Interprocess Communication
+ Requires:
+ Version: @VERSION@
+-Libs: -Wl,-R${libdir} -L${libdir} -ltubo @GTHREAD_LIBS@
++Libs: -L${libdir} -ltubo @GTHREAD_LIBS@
+ Cflags: -I${includedir} @GTHREAD_CFLAGS@

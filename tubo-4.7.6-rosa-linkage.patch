@@ -1,0 +1,13 @@
+Index: tubo-4.7.6/src/Makefile.am
+===================================================================
+--- tubo-4.7.6.orig/src/Makefile.am
++++ tubo-4.7.6/src/Makefile.am
+@@ -9,6 +9,8 @@ lib_LTLIBRARIES = libtubo.la
+ libtubo_la_SOURCES = 						\
+ 	tubo.c 	tubo.h tubo_static.i
+ 
++libtubo_la_LIBADD = @GTHREAD_LIBS@
++
+ tuboincludedir = $(includedir)
+ tuboinclude_HEADERS = tubo.h
+ tubo_CFLAGS = @GTHREAD_CFLAGS@
