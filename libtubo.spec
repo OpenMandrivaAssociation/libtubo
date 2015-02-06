@@ -6,7 +6,7 @@
 Name:		libtubo
 Summary:	Interprocess communication used by xffm
 Version:	4.7.6
-Release:	1
+Release:	2
 
 Source0:	http://downloads.sourceforge.net/project/xffm/libtubo/%{oname}-%{version}.tar.gz
 Patch0:		tubo-4.7.6-rosa-linkage.patch
