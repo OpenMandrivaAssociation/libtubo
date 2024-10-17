@@ -11,7 +11,7 @@ Release:	2
 Source0:	http://downloads.sourceforge.net/project/xffm/libtubo/%{oname}-%{version}.tar.gz
 Patch0:		tubo-4.7.6-rosa-linkage.patch
 Patch1:		tubo-4.7.6-rosa-no_rpath.patch
-URL:		http://xffm.sf.net
+URL:		https://xffm.sf.net
 License:	GPLv2+
 Group:		System/Libraries
 BuildRequires:	xfce-dev-tools
